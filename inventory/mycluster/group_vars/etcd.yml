@@ -15,4 +15,8 @@
 
 ### ETCD: disable peer client cert authentication.
 # This affects ETCD_PEER_CLIENT_CERT_AUTH variable
-#etcd_peer_client_auth: true
+etcd_peer_client_auth: false
+
+# Disable security for clients
+etcd_secure_client: false
+
